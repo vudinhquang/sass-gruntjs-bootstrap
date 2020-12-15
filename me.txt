@@ -18,4 +18,10 @@ CSS Extensions
     Nesting element
     Nesting property
     Referencing Parent Selectors
+Variable & Data Type
+    Use
+        Chỉ compile được các ghi chú trên nhiều dòng
+        /* 
+            ABC DEF
+        */
     
