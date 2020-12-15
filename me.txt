@@ -1,1 +1,11 @@
 https://sass-lang.com/
+
+                                                    SASS
+                                                
+SASS - Set up Enviroments
+    Enviroments
+        https://sass-lang.com/install
+        Install Scout-App (Free, Open Source) Windows Linux Mac
+        Input Folder: sass-gruntjs-bootstrap/training_sass/02-enviroment/in
+        Output Folder: sass-gruntjs-bootstrap/training_sass/02-enviroment/out
+    
