@@ -8,4 +8,10 @@ SASS - Set up Enviroments
         Install Scout-App (Free, Open Source) Windows Linux Mac
         Input Folder: sass-gruntjs-bootstrap/training_sass/02-enviroment/in
         Output Folder: sass-gruntjs-bootstrap/training_sass/02-enviroment/out
+    Output
+        https://sass-lang.com/documentation
+        compact: Một hàng
+        compressed: Nén
+        expanded: format 
+        nesting
     
