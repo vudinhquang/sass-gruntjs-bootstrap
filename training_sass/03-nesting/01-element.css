@@ -1,0 +1,7 @@
+div.abc div.abc-child a {
+  color: red;
+}
+
+div.abc p {
+  color: blue;
+}
