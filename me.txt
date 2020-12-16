@@ -33,4 +33,5 @@ Control Directive & Expressions
     For 1
     For 2
     While
+    Each
     
