@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.list-images {
+  margin: 40px;
+  border: 2px solid #F0682D;
+}
+
+div.list-images div.image {
+  float: left;
+}
+
+div.list-images div.image img {
+  display: block;
+  width: 100%;
+}
+
+div.list-images:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -55,4 +55,6 @@ Xây dựng giao diện danh sách hình ảnh
         http://placehold.it/
         http://placehold.it/350x150
         http://placehold.it/150
+    Clearfix
+        sass Clearfix
     

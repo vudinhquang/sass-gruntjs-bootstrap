@@ -1,0 +1,17 @@
+@import "reset";
+@import "variable";
+@import "mixin";
+
+div.list-images {
+	margin: 40px;
+	border: 2px solid $color-border;
+	div.image {
+		float: left;
+		img {   
+			display: block;
+            width: 100%;
+		}
+    }
+    
+    @include clearfix;
+}
