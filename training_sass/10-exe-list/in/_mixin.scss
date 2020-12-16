@@ -1,3 +1,7 @@
+@mixin setWidth($pColum, $pColumMargin  ) {
+	width: (100% - ($pColum - 1) * $pColumMargin) / $pColum;
+}
+
 @mixin clearfix {
 	&:after {
 		content: "";

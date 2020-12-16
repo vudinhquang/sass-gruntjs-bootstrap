@@ -57,4 +57,9 @@ Xây dựng giao diện danh sách hình ảnh
         http://placehold.it/150
     Clearfix
         sass Clearfix
+    Import
+        Hiển thị 5 hình ảnh trên 1 dòng. Các hình ảnh cách nhau 1%(margin right: 1%)
+        A + 1% + A + 1% + A + 1% + A + 1% + A
+        5A + 4% = 100%
+        -> A=19.2%
     
