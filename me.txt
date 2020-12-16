@@ -37,4 +37,8 @@ Control Directive & Expressions
 Function
     Create & Use
     Lib
+@-Rules and Directives
+    Import
+        Partials 
+            https://sass-lang.com/guide#topic-4
     
