@@ -11,6 +11,16 @@ div.list-images {
 div.list-images div.image {
   float: left;
   width: 19.2%;
+  margin-right: 1%;
+}
+
+div.list-images div.image:nth-child(5n) {
+  margin-right: 0%;
+  margin-bottom: 1%;
+}
+
+div.list-images div.image:last-child {
+  margin-bottom: 0%;
 }
 
 div.list-images div.image img {

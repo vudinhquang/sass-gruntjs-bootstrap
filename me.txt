@@ -62,4 +62,5 @@ Xây dựng giao diện danh sách hình ảnh
         A + 1% + A + 1% + A + 1% + A + 1% + A
         5A + 4% = 100%
         -> A=19.2%
+    SetWidth 1
     
