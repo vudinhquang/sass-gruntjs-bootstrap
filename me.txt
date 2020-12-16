@@ -27,4 +27,5 @@ Variable & Data Type
     Global
     Data Type
     Interpolation
+    Google Font
     
