@@ -50,4 +50,9 @@ Xây dựng giao diện Button
     Button 1
     Button 2
     Button 3
+Xây dựng giao diện danh sách hình ảnh
+    Prepare
+        http://placehold.it/
+        http://placehold.it/350x150
+        http://placehold.it/150
     
