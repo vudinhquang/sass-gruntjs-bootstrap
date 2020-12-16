@@ -26,4 +26,5 @@ Variable & Data Type
         */
     Global
     Data Type
+    Interpolation
     
