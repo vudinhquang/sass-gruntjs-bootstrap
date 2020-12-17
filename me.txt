@@ -99,4 +99,7 @@ Plugin Minify CSS
         https://gruntjs.com/plugins
         Name: grunt-contrib-cssmin
         npm install grunt-contrib-cssmin --save-dev
+    Cssmin 2
+        Combine two files into one output file
+        Minify all contents of a release directory and add a .min.css extension
     
