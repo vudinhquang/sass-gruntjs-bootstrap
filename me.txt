@@ -64,4 +64,8 @@ Xây dựng giao diện danh sách hình ảnh
         -> A=19.2%
     SetWidth 1
     SetWidth 2
+    Media
+        Màn hình >1000px 5 cột, cách nhau 1%
+        Màn hình >500px, <1000px 3 cột, cách nhau 2%
+        Màn hình <500px  1 cột, cách nhau 0%
     

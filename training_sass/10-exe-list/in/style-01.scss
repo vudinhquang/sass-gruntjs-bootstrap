@@ -7,7 +7,7 @@ div.list-images {
 	border: 2px solid $color-border;
 	div.image {
 		float: left;
-		@include setWidth($colum, $columMargin);
+		// @include setWidth($colum, $columMargin);
 		img {   
 			display: block;
             width: 100%;
@@ -15,4 +15,22 @@ div.list-images {
     }
     
     @include clearfix;
+}
+
+@media screen and (min-width: 1000px){
+	div.image {
+		@include setWidth(5, 1%);
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px){
+	div.image {
+		@include setWidth(3, 2%);
+	}
+}
+
+@media screen and (max-width: 500px){
+	div.image {
+		@include setWidth(1, 1%);
+	}
 }
