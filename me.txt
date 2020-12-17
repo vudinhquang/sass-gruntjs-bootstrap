@@ -91,4 +91,7 @@ GruntJS - Set up Enviroments
         Để gọi 1 task nào đó của grunt
             grunt taskName
             grunt -> task default sẽ được thực hiện
+    Create Project 2
+        Create gruntjs Project
+        npm install grunt --save-dev
     
