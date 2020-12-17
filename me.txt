@@ -70,4 +70,6 @@ Xây dựng giao diện danh sách hình ảnh
         Màn hình <500px  1 cột, cách nhau 0%
 Xây dựng giao diện lưới & media
     Xây dựng giao diện lưới & media - Prepare
+    Cell-x
+        box-sizing: border-box
     
