@@ -82,4 +82,13 @@ https://gruntjs.com/
 GruntJS - Set up Enviroments
     Install
         npm install -g grunt-cli
+    Create Project 1  
+        Create package.json
+            npm init
+            -> "name": "training_grunt",
+        npm install grunt --save-dev
+        Create Gruntfile.js
+        Để gọi 1 task nào đó của grunt
+            grunt taskName
+            grunt -> task default sẽ được thực hiện
     

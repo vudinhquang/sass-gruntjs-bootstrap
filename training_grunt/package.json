@@ -1,0 +1,6 @@
+{
+    "name": "training_grunt",
+    "devDependencies": {
+        "grunt": "^1.3.0"
+    }
+}
