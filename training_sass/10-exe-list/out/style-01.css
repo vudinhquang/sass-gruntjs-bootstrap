@@ -10,11 +10,11 @@ div.list-images {
 
 div.list-images div.image {
   float: left;
-  width: 19.2%;
+  width: 24.25%;
   margin-right: 1%;
 }
 
-div.list-images div.image:nth-child(5n) {
+div.list-images div.image:nth-child(4n) {
   margin-right: 0%;
   margin-bottom: 1%;
 }

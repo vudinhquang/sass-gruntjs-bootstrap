@@ -7,7 +7,7 @@ div.list-images {
 	border: 2px solid $color-border;
 	div.image {
 		float: left;
-		@include setWidth(5, 1%);
+		@include setWidth($colum, $columMargin);
 		img {   
 			display: block;
             width: 100%;
