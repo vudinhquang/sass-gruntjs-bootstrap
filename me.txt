@@ -94,4 +94,9 @@ GruntJS - Set up Enviroments
     Create Project 2
         Create gruntjs Project
         npm install grunt --save-dev
+Plugin Minify CSS
+    Cssmin 1
+        https://gruntjs.com/plugins
+        Name: grunt-contrib-cssmin
+        npm install grunt-contrib-cssmin --save-dev
     
