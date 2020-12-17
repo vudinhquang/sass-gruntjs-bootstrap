@@ -69,5 +69,5 @@ Xây dựng giao diện danh sách hình ảnh
         Màn hình >500px, <1000px 3 cột, cách nhau 2%
         Màn hình <500px  1 cột, cách nhau 0%
 Xây dựng giao diện lưới & media
-    Prepare
+    Xây dựng giao diện lưới & media - Prepare
     
