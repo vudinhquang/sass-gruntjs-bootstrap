@@ -113,4 +113,9 @@ Plugin Uglify
         npm install grunt-contrib-uglify --save-dev
     Uglify 2
         Turn off console warnings
+Plugin SASS
+    Dịch từ sass sang css 
+    Plugin name: grunt-sass
+    npm install --save-dev node-sass grunt-sass
+    npm install --save-dev node-sass
     

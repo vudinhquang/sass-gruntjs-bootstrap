@@ -1,3 +1,5 @@
+const sass = require('node-sass');
+
 module.exports = function(grunt) {
     // 01 Config
     grunt.initConfig({
@@ -5,6 +7,7 @@ module.exports = function(grunt) {
 		dirs: {
 			inputJS		: 'development/js',
 			inputCSS	: 'development/css',
+			inputSCSS	: 'development/scss',
 			outputJS	: 'production/js',
 			outputCSS	: 'production/css',
 		},
@@ -54,15 +57,30 @@ module.exports = function(grunt) {
 		    		'<%= dirs.outputJS %>/case-01.min.js': ['<%= dirs.inputJS %>/case-01.js']
 		  		}
 			}
-		},
+        },
+        
+		// SASS
+		sass: {
+			options: {
+				implementation: sass,
+				sourceMap: false,
+				outputStyle: 'expanded',
+			},
+			dist: {
+				files: {
+					'<%= dirs.outputCSS %>/result.css': '<%= dirs.inputSCSS %>/style-01.scss'
+				}
+			}
+        },
     });
 
     // 02 Load plugin
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-sass');
 
     // 03 Register task
-    grunt.registerTask('default', ['uglify']);
-    grunt.registerTask('abc', ['cssmin', 'concat', 'uglify']);
+    grunt.registerTask('default', ['sass']);
+    grunt.registerTask('abc', ['cssmin', 'concat', 'uglify', 'sass']);
 };
