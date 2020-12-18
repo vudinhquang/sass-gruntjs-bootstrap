@@ -107,4 +107,8 @@ Plugin Minify CSS
         https://www.npmjs.com/package/grunt-contrib-concat
         npm install grunt-contrib-concat --save-dev
     Concat 2
+Plugin Uglify
+    Uglify 1
+        Nén các tập tin javascript
+        npm install grunt-contrib-uglify --save-dev
     
