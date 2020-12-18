@@ -129,4 +129,8 @@ Plugin connect
         livereload: true
 Plugin includes
     Problem
+        Dùng để giải quyết vấn đề khi xây dựng 1 giao diện có mã html quá dài, khi đó có thể chia nhỏ ra để
+        phát triển
+    Includes 1
+        npm install grunt-includes --save-dev
     
