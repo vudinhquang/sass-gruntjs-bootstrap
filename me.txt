@@ -102,4 +102,8 @@ Plugin Minify CSS
     Cssmin 2
         Combine two files into one output file
         Minify all contents of a release directory and add a .min.css extension
+    Concat 1
+        Nối các tập tin lại với nhau
+        https://www.npmjs.com/package/grunt-contrib-concat
+        npm install grunt-contrib-concat --save-dev
     
