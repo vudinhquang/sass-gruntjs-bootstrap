@@ -127,4 +127,6 @@ Plugin connect
         grunt.registerTask('dev', ['connect', 'watch']);
     Trong cả task watch và connect thì đều thiết lập option 
         livereload: true
+Plugin includes
+    Problem
     
