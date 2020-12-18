@@ -120,4 +120,11 @@ Plugin SASS
     npm install --save-dev node-sass
 Plugin watch
     npm install grunt-contrib-watch --save-dev
+Plugin connect
+    npm install grunt-contrib-connect --save-dev
+    Đối với html thì phải viết đúng cú pháp html, head, meta, body...
+    Sau khi connect xong gọi đên watch
+        grunt.registerTask('dev', ['connect', 'watch']);
+    Trong cả task watch và connect thì đều thiết lập option 
+        livereload: true
     
