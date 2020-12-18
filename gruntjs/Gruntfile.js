@@ -79,6 +79,7 @@ module.exports = function(grunt) {
 				files: [
 					'<%= dirs.inputSCSS %>/*.scss',
 					'development/index.html',
+					'development/html/*.html'
 				],
 				tasks: [
 					'sass',

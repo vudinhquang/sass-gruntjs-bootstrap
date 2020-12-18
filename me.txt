@@ -133,4 +133,9 @@ Plugin includes
         phát triển
     Includes 1
         npm install grunt-includes --save-dev
+    Includes 2
+        flatten: false, 
+            development/index.html -> production/development/index.html
+        flatten: true, 
+            development/index.html -> production/index.html
     
