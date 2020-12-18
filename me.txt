@@ -118,4 +118,6 @@ Plugin SASS
     Plugin name: grunt-sass
     npm install --save-dev node-sass grunt-sass
     npm install --save-dev node-sass
+Plugin watch
+    npm install grunt-contrib-watch --save-dev
     

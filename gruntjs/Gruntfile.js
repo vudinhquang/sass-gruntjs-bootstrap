@@ -71,7 +71,23 @@ module.exports = function(grunt) {
 					'<%= dirs.outputCSS %>/result.css': '<%= dirs.inputSCSS %>/style-01.scss'
 				}
 			}
-        },
+		},
+		
+		// WATCH
+		watch: {
+			scripts: {
+				files: [
+					'<%= dirs.inputSCSS %>/*.scss',
+				],
+				tasks: [
+					'sass',
+					'cssmin',
+				],
+				options: {
+					spawn: false,
+				},
+			},
+		},
     });
 
     // 02 Load plugin
@@ -79,8 +95,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-sass');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 
     // 03 Register task
-    grunt.registerTask('default', ['sass']);
-    grunt.registerTask('abc', ['cssmin', 'concat', 'uglify', 'sass']);
+    grunt.registerTask('default', ['watch']);
+	grunt.registerTask('abc', ['cssmin', 'concat', 'uglify', 'sass']);
+	grunt.registerTask('dev', ['watch']);
 };
