@@ -138,4 +138,9 @@ Plugin includes
             development/index.html -> production/development/index.html
         flatten: true, 
             development/index.html -> production/index.html
-    
+
+==============================================================================================================
+
+                            Convert Template PSD use SASS, GruntJS & Bootstrap 3
+
+Prepare
