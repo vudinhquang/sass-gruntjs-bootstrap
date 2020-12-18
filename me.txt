@@ -106,4 +106,5 @@ Plugin Minify CSS
         Nối các tập tin lại với nhau
         https://www.npmjs.com/package/grunt-contrib-concat
         npm install grunt-contrib-concat --save-dev
+    Concat 2
     

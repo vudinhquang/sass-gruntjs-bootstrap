@@ -27,7 +27,10 @@ module.exports = function(grunt) {
         // Concat
         concat: {
             options: {
-              separator: '\n',
+                separator: '\n',
+				stripBanners: false,
+      			banner: '/*! <%= mPkg.name %> - v<%= mPkg.version %> - ' +
+       					'<%= grunt.template.today("yyyy-mm-dd") %> */' + '\n', 
             },
             dist: {
 				src: [
