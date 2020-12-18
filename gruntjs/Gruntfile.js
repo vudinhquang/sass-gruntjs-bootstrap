@@ -44,7 +44,10 @@ module.exports = function(grunt) {
         // Uglify
 		uglify: {
 			options: {
-
+				beautify: false,
+				compress: {
+					drop_console: true
+				}
 			},
 			my_target: {
 		  		files: {
@@ -60,9 +63,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
     // 03 Register task
-    grunt.registerTask('default', 'Log some stuff.', function() {
-        grunt.log.write('Logging some stuff...').ok();
-    });
-
+    grunt.registerTask('default', ['uglify']);
     grunt.registerTask('abc', ['cssmin', 'concat', 'uglify']);
 };

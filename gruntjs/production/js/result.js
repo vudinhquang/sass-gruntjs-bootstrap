@@ -1,4 +1,5 @@
 /*! gruntjs - v1.0 - 2020-12-18 */
+console.log("test console");
 var enter = "<br />";
 // Cách 02
 this.myValidate2 = function(value1, value2){

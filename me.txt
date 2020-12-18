@@ -111,4 +111,6 @@ Plugin Uglify
     Uglify 1
         Nén các tập tin javascript
         npm install grunt-contrib-uglify --save-dev
+    Uglify 2
+        Turn off console warnings
     
