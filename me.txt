@@ -159,4 +159,13 @@ Xây dựng cấu trúc project
                 npm install --save-dev node-sass grunt-sass
                 npm install --save-dev node-sass
     Project Structure 2
+    Project Structure 3
+        Download bootstrap-3.3.7-dist
+        font-awesome-4.7.0
+            https://fontawesome.com/v4.7.0/
+        Download và tích hợp fontawesome, bootstrap vào trong project 
+        psd
+            Install
+            pwd: 123abcABC
+            Ctrl + H: Hiển thị các đường gióng kích thước
     
