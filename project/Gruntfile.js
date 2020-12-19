@@ -8,6 +8,7 @@ module.exports = function(grunt) {
 
 		// Define Path
 		dirs: {
+            input				: 'development',
 			inputSCSS			: 'development/sass',
 			inputJS				: 'development/js',
 			inputHTMLELements	: 'development/html-elements',
@@ -42,6 +43,7 @@ module.exports = function(grunt) {
 		// Plugin 04: Sass
 		sass: {
 			options: {
+                implementation: sass,
 				outputStyle: 'expanded',
 			},
 			dist: {
@@ -58,7 +60,7 @@ module.exports = function(grunt) {
 				files: [
 					'<%= dirs.inputSCSS %>/*.scss',				// development/sass/*.scss
 					//'<%= dirs.inputSCSS %>/*/*.scss',			// development/sass/*/*.scss
-					//'<%= dirs.input %>/index.html',
+					'<%= dirs.input %>/index.html',
 					//'<%= dirs.inputHTMLELements %>/*.html',		// development/html-elements/*.html
 					// '<%= dirs.inputHTMLELements %>/*/*.html',	// development/html-elements/*/*.html
 				],

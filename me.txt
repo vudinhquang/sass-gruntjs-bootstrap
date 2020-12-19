@@ -147,6 +147,8 @@ Prepare
 Xây dựng cấu trúc project
     Project Structure 1
         Cài đặt GruntJS: npm install grunt --save-dev
+        npm install -g grunt-cli
+        npm install -g npm
         Cài đặt các plugin
             connect: npm install grunt-contrib-connect --save-dev
             cssmin: npm install grunt-contrib-cssmin --save-dev
@@ -156,4 +158,5 @@ Xây dựng cấu trúc project
             sass:
                 npm install --save-dev node-sass grunt-sass
                 npm install --save-dev node-sass
+    Project Structure 2
     
