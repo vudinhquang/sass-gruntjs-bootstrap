@@ -144,3 +144,16 @@ Plugin includes
                             Convert Template PSD use SASS, GruntJS & Bootstrap 3
 
 Prepare
+Xây dựng cấu trúc project
+    Project Structure 1
+        Cài đặt GruntJS: npm install grunt --save-dev
+        Cài đặt các plugin
+            connect: npm install grunt-contrib-connect --save-dev
+            cssmin: npm install grunt-contrib-cssmin --save-dev
+            uglify: npm install grunt-contrib-uglify --save-dev
+            watch: npm install grunt-contrib-watch --save-dev
+            includes: npm install grunt-includes --save-dev
+            sass:
+                npm install --save-dev node-sass grunt-sass
+                npm install --save-dev node-sass
+    
