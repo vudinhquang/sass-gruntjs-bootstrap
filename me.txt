@@ -176,4 +176,7 @@ Xây dựng cấu trúc project
     HTML structure
     Logo
     Menu 1
+    Menu 2
+        https://border-radius.com/
+        https://html-css-js.com/css/generator/box-shadow/
     

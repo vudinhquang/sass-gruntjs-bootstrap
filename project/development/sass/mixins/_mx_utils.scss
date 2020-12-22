@@ -1,3 +1,29 @@
+/* ==================== BORDER RADIUS ==================== */
+/* Ref: 
+    http://www.w3schools.com/css/css3_borders.asp 
+    http://border-radius.com/
+    border-radius: tl tr br bl:
+*/
+
+@mixin setBorderRadius($value){
+    border-radius: $value;
+   -webkit-border-radius: $value; 
+   -moz-border-radius: $value;       
+   -o-border-radius: $value;          // for Opera and Iphone5 Mobile**
+}
+
+/* ==================== BOX SHADOW ==================== */
+/* Ref: 
+    http://www.cssmatic.com/box-shadow
+*/
+
+@mixin setBoxShadowBottom($size, $color){
+    box-shadow:  inset 0px $size 0px 0px $color;
+    -webkit-box-shadow: inset 0px $size 0px 0px $color;
+    -moz-box-shadow: inset 0px $size 0px 0px $color;
+    -o-box-shadow: inset 0px $size 0px 0px $color;
+}
+
 /* ==================== Set Font ==================== */
 @mixin setFont($fontSize, $color, $fontWeight: null, $fontFamily: null){
 	color: $color;

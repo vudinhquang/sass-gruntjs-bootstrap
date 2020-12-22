@@ -7,14 +7,15 @@ nav.header-menu {
                 @include setFont(16px, $color-white, bold );
                 text-transform: uppercase;
                 padding: 10px 24px;
-                background: #62A29E;
 			}
 
-			&.activate {
+			&.activate, &:hover {
 				> a {
-				
+                    @include setBorderRadius(5px);
+                    @include setBoxShadowBottom(-4px, #47817E);
+                    background: #62A29E;
 				}
-			}
+            }
 
             ul.sub-menu {
                 display: none;

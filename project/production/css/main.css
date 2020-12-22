@@ -5,6 +5,16 @@
 /* ======================== COLORS ======================== */
 /* ======================== HEADER ======================== */
 /* ======================== MIXIN ======================== */
+/* ==================== BORDER RADIUS ==================== */
+/* Ref: 
+    http://www.w3schools.com/css/css3_borders.asp 
+    http://border-radius.com/
+    border-radius: tl tr br bl:
+*/
+/* ==================== BOX SHADOW ==================== */
+/* Ref: 
+    http://www.cssmatic.com/box-shadow
+*/
 /* ==================== Set Font ==================== */
 /* ======================== RESET ======================== */
 * {
@@ -48,6 +58,17 @@ header nav.header-menu ul.menu > li > a {
   font-weight: bold;
   text-transform: uppercase;
   padding: 10px 24px;
+}
+
+header nav.header-menu ul.menu > li.activate > a, header nav.header-menu ul.menu > li:hover > a {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: inset 0px -4px 0px 0px #47817E;
+  -webkit-box-shadow: inset 0px -4px 0px 0px #47817E;
+  -moz-box-shadow: inset 0px -4px 0px 0px #47817E;
+  -o-box-shadow: inset 0px -4px 0px 0px #47817E;
   background: #62A29E;
 }
 
