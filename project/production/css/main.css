@@ -1,6 +1,8 @@
 body {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 /* ======================== HEADER ======================== */
-@import "header/main";
+header {
+  background: red;
+}

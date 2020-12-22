@@ -46,11 +46,9 @@ module.exports = function(grunt) {
                 implementation: sass,
 				outputStyle: 'expanded',
 			},
-			dist: {
-				files: {
-                    src: '<%= dirs.inputSCSS %>/main.scss',
-                    dest: '<%= dirs.outputCSS %>/main.css',
-				}
+			files: {
+				src: '<%= dirs.inputSCSS %>/main.scss',
+				dest: '<%= dirs.outputCSS %>/main.css',
 			}
 		},
 		
@@ -59,9 +57,9 @@ module.exports = function(grunt) {
 			scripts: {
 				files: [
 					'<%= dirs.inputSCSS %>/*.scss',				// development/sass/*.scss
-					//'<%= dirs.inputSCSS %>/*/*.scss',			// development/sass/*/*.scss
+					'<%= dirs.inputSCSS %>/*/*.scss',			// development/sass/*/*.scss
 					'<%= dirs.input %>/index.html',
-					//'<%= dirs.inputHTMLELements %>/*.html',		// development/html-elements/*.html
+					'<%= dirs.inputHTMLELements %>/*.html',		// development/html-elements/*.html
 					// '<%= dirs.inputHTMLELements %>/*/*.html',	// development/html-elements/*/*.html
 				],
 				tasks: ['sass', 'includes'],
