@@ -1,0 +1,13 @@
+/* ==================== Set Font ==================== */
+@mixin setFont($fontSize, $color, $fontWeight: null, $fontFamily: null){
+	color: $color;
+	font-size:$fontSize;
+
+	@if $fontWeight != null {
+		font-weight: $fontWeight;	
+	}
+
+	@if $fontFamily != null {
+		font-family: $fontFamily;	
+	}
+}

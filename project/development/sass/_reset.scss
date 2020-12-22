@@ -1,3 +1,15 @@
 * {
 	font-family: $font-text;
 }
+
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
