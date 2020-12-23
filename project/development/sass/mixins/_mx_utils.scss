@@ -37,3 +37,16 @@
 		font-family: $fontFamily;	
 	}
 }
+
+/* ==================== HOVER A ==================== */
+/* Ref: 
+*/
+
+@mixin setTagAHover($color, $colorHover){
+    a {
+        color: $color; 
+        &:hover{
+            color: $colorHover;
+        }
+    }
+}

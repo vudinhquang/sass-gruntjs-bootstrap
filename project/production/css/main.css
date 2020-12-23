@@ -18,6 +18,9 @@
     http://www.cssmatic.com/box-shadow
 */
 /* ==================== Set Font ==================== */
+/* ==================== HOVER A ==================== */
+/* Ref: 
+*/
 /* ======================== RESET ======================== */
 * {
   font-family: "Open Sans", sans-serif;
@@ -291,4 +294,39 @@ section.section-breadcrumb ol.breadcrumb li a:hover {
 
 section.section-breadcrumb ol.breadcrumb li.active {
   color: #888888;
+}
+
+div.article:last-child {
+  margin-bottom: 0px;
+}
+
+div.article > * {
+  margin-bottom: 20px;
+}
+
+div.article a.image {
+  display: block;
+}
+
+div.article a.image:hover {
+  zoom: 1;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+
+div.article a.image img {
+  width: 100%;
+}
+
+div.article h3 a {
+  color: #808B8D;
+}
+
+div.article h3 a:hover {
+  color: #E55846;
+}
+
+div.article h3 a {
+  font-size: 20px;
+  line-height: 1.2em;
 }
