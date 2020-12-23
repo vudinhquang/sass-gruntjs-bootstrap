@@ -60,7 +60,7 @@ header nav.header-menu ul.menu > li.activate > a, header nav.header-menu ul.menu
   -o-box-shadow: inset 0px -4px 0px 0px #47817E;
 }
 
-header nav.header-menu ul.sub-menu li:hover > a {
+header nav.header-menu ul.sub-menu > li:hover > a, header nav.header-menu ul.sub-sub-menu > li:hover > a {
   background: #f0f0f0;
   border-left: 3px solid #62A29E;
   color: #797979;
@@ -69,17 +69,19 @@ header nav.header-menu ul.sub-menu li:hover > a {
 header nav.header-menu ul li {
   list-style: none;
   position: relative;
+  display: inline-block;
+  z-index: 100;
 }
 
-header nav.header-menu ul.menu > li {
-  display: inline-block;
+header nav.header-menu ul li a {
+  text-transform: uppercase;
+  display: block;
 }
 
 header nav.header-menu ul.menu > li > a {
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
-  text-transform: uppercase;
   padding: 10px 24px;
 }
 
@@ -87,28 +89,30 @@ header nav.header-menu ul.menu > li:hover ul.sub-menu {
   display: block;
 }
 
-header nav.header-menu ul.sub-menu {
+header nav.header-menu ul.sub-menu, header nav.header-menu ul.sub-sub-menu {
   display: none;
   position: absolute;
-  top: 32px;
+  top: 42px;
   left: 0px;
 }
 
-header nav.header-menu ul.sub-menu li {
-  display: inline-block;
+header nav.header-menu ul.sub-menu > li, header nav.header-menu ul.sub-sub-menu > li {
   width: 155px;
 }
 
-header nav.header-menu ul.sub-menu li a {
+header nav.header-menu ul.sub-menu > li > a, header nav.header-menu ul.sub-sub-menu > li > a {
   color: #ffffff;
   font-size: 13px;
-  text-transform: uppercase;
   border-left: 3px solid #C03C35;
   background: #E2534B;
   padding: 10px 20px;
+}
+
+header nav.header-menu ul.sub-menu > li:hover > ul.sub-sub-menu, header nav.header-menu ul.sub-sub-menu > li:hover > ul.sub-sub-menu {
   display: block;
 }
 
 header nav.header-menu ul.sub-sub-menu {
-  display: none;
+  top: 0px;
+  left: 155px;
 }

@@ -15,27 +15,28 @@ nav.header-menu {
 	ul li {
         list-style: none;
         position: relative;
+        display: inline-block;
+        z-index: 100;
+		a {
+			text-transform: uppercase;
+			display: block;
+		}
 	}
 	// Menu Level 1
 	ul.menu {
 		> li {
-            display: inline-block;
 			> a {
                 @include setFont(16px, $color-white, bold );
-                text-transform: uppercase;
                 padding: 10px 24px;
 			}
 
-			&.activate {
+			&.activate, &:hover {
 				> a {
                     @extend %menu-active-or-hover;
 				}
             }
 
 			&:hover {
-                > a {
-                    @extend %menu-active-or-hover;
-                }
 				ul.sub-menu {
 					display: block;
 				}
@@ -44,26 +45,27 @@ nav.header-menu {
     }
     
     // Menu Level 2
-    ul.sub-menu {
+    ul.sub-menu, ul.sub-sub-menu {
         display: none;
         position: absolute;
-		top: 32px;
+		top: 42px;
 		left: 0px;
-        li {
-            display: inline-block;
+        > li {
             width: 155px;
-            a {
+            > a {
                 @include setFont(13px, $color-white); 
-                text-transform: uppercase;
 				border-left: 3px solid #C03C35;
 				background: #E2534B;
                 padding: 10px 20px;
-                display: block;
             }
 
 			&:hover {
 				> a {
 					@extend %sub-menu-active-or-hover;
+                }
+                
+				> ul.sub-sub-menu { 
+					display: block;
 				}
 			}
         }
@@ -71,11 +73,7 @@ nav.header-menu {
 
     // Menu Level 3
     ul.sub-sub-menu {
-        display: none;
-        li {
-            a {
-                
-            }
-        }
+		top: 0px;
+		left: 155px;
     }
 }
