@@ -4,4 +4,5 @@
 	@include setNavigationOnMobile();
 	@include setBreadcrumbTitleSize(18px);
 	@include setArticle(12px, 30px, 12px);
+	@include setWidgetSize(20px);
 }

@@ -100,3 +100,13 @@
 		}
 	}
 }
+
+// Widget Size
+@mixin setWidgetSize($size: 30px){
+	div.widget {
+		&:first-child {
+			margin-top: $size !important;
+		}
+		margin-bottom: $size !important;
+	}
+}

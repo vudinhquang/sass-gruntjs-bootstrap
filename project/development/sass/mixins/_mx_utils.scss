@@ -50,3 +50,26 @@
         }
     }
 }
+
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin setColumn($pColum, $pColumMargin  ) {
+
+    width: (100% - ($pColum - 1) * $pColumMargin) / $pColum;
+    margin-right: $pColumMargin;
+
+    &:nth-child(#{$pColum}n) { // 5
+        margin-right: 0%;
+        margin-bottom: $pColumMargin;
+    }
+
+    &:last-child {
+         margin-bottom: 0%;
+    }
+}
