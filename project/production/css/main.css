@@ -136,10 +136,42 @@ header nav.header-menu ul.sub-sub-menu {
 	SMALL DEVICES
 	Tablets 768px and Up (>768px & <992px)
 	================================================================================ */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  header nav.header-menu ul.menu > li > a {
+    padding: 8px 14px;
+  }
+  header {
+    text-align: center;
+  }
+  header div.header-logo {
+    float: none !important;
+    margin-bottom: 10px;
+  }
+  header nav.header-menu {
+    float: none !important;
+  }
+}
+
 /* 	================================================================================
 	EXTRA SMALL
 	(>425px & <768px)
 	================================================================================ */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  header nav.header-menu ul.menu > li > a {
+    padding: 8px 18px;
+  }
+  header {
+    text-align: center;
+  }
+  header div.header-logo {
+    float: none !important;
+    margin-bottom: 10px;
+  }
+  header nav.header-menu {
+    float: none !important;
+  }
+}
+
 /* 	================================================================================
 	MOBILE SIZE
 	Phones Less than 425px

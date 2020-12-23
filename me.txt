@@ -188,4 +188,5 @@ Xây dựng cấu trúc project
         Small devices Tablets (≥768px)
         Extra small devices Phones (<768px)
     Responsive 2
+    Responsive 3
     

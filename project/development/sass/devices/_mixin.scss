@@ -4,3 +4,19 @@
 	    padding: $padding;
 	}
 }
+
+//  Center Header
+@mixin setCenterHeader() {
+	header {
+		text-align: center;
+
+		div.header-logo {
+			float: none !important;
+			margin-bottom: 10px;
+		}
+
+		nav.header-menu {
+			float: none !important;
+		}
+	}
+}
