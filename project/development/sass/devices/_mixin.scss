@@ -62,3 +62,12 @@
     	margin-top: 20px;
 	}
 }
+
+// Breadcrumb Title Size
+@mixin setBreadcrumbTitleSize($size: 18px){
+	section.section-breadcrumb {
+		h3.title {
+			font-size: $size !important;
+		}
+	}
+}

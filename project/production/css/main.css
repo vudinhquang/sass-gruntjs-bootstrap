@@ -262,6 +262,9 @@ header a.mobile-menu:hover {
     display: block !important;
     margin-top: 20px;
   }
+  section.section-breadcrumb h3.title {
+    font-size: 18px !important;
+  }
 }
 
 /* ======================== ELEMENTS ======================== */

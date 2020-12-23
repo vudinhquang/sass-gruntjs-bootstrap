@@ -194,4 +194,5 @@ Xây dựng giao diện Header
         After click e.preventDefault();
 Xây dựng giao diện Breadcrumb
     Breadcrumb 1
+    Breadcrumb 2
     

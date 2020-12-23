@@ -2,4 +2,5 @@
 	and (max-width: $device_size_mobile) {
 
 	@include setNavigationOnMobile();
+	@include setBreadcrumbTitleSize(18px);
 }
