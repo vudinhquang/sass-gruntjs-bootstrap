@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 /* ======================== VARIABLE ======================== */
 /* ======================== FONTS ======================== */
+/* ======================== LIST ======================== */
 /* ======================== COLORS ======================== */
 /* ======================== HEADER ======================== */
+/* ======================== BREADCRUMB ======================== */
 /* ======================== MIXIN ======================== */
 /* ==================== BORDER RADIUS ==================== */
 /* Ref: 
@@ -32,6 +34,41 @@ a:hover {
 ul {
   padding: 0px;
   margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.breadcrumb {
+  padding: 0px;
+  margin-bottom: 0px;
 }
 
 /* ======================== HEADER ======================== */
@@ -225,4 +262,30 @@ header a.mobile-menu:hover {
     display: block !important;
     margin-top: 20px;
   }
+}
+
+/* ======================== ELEMENTS ======================== */
+section.section-breadcrumb {
+  background: #F3F3F3;
+  padding: 2% 0;
+}
+
+section.section-breadcrumb h3.title {
+  color: #62A09D;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section.section-breadcrumb ol.breadcrumb li a {
+  color: #62A09D;
+  font-size: 14px;
+}
+
+section.section-breadcrumb ol.breadcrumb li a:hover {
+  color: #F15F43;
+}
+
+section.section-breadcrumb ol.breadcrumb li.active {
+  color: #888888;
 }

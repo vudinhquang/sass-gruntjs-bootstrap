@@ -169,6 +169,7 @@ Xây dựng cấu trúc project
             pwd: 123abcABC
             Ctrl + H: Hiển thị các đường gióng kích thước
     Project Structure 4
+Xây dựng giao diện Header
     Sass files
     Font
         Google fonts
@@ -191,4 +192,6 @@ Xây dựng cấu trúc project
     Responsive 3
     Responsive 4
         After click e.preventDefault();
+Xây dựng giao diện Breadcrumb
+    Breadcrumb 1
     
