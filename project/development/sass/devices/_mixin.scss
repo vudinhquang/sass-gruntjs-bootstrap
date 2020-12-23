@@ -20,3 +20,45 @@
 		}
 	}
 }
+
+// Navigation On Mobile
+@mixin setNavigationOnMobile() {
+	header {
+		div.header-logo, nav.header-menu {
+			float: none !important;
+		}
+
+		nav.header-menu {
+			ul.menu {
+				display: none;
+
+				> li{
+					display: block;
+					width: 100%;
+
+					a{
+						background: #ffffff !important; 
+						color: #797979 !important; 
+						border-top:1px solid #e0e0e0 !important; 
+					}
+					
+					&:hover a, &.activate a {
+						background: #f0f0f0 !important;
+						@include setBoxShadowBottom(0px, #47817E !important);
+						@include setBorderRadius(0px !important);
+					}
+
+					ul {
+						display:none;
+					}
+					
+				}
+			}	
+		}
+	}
+
+	a.mobile-menu {
+		display: block !important;
+    	margin-top: 20px;
+	}
+}

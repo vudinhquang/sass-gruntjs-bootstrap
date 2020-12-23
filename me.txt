@@ -189,4 +189,6 @@ Xây dựng cấu trúc project
         Extra small devices Phones (<768px)
     Responsive 2
     Responsive 3
+    Responsive 4
+        After click e.preventDefault();
     

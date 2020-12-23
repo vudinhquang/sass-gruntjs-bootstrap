@@ -117,6 +117,20 @@ header nav.header-menu ul.sub-sub-menu {
   left: 155px;
 }
 
+header a.mobile-menu {
+  display: none;
+  width: 100%;
+  padding: 12px;
+  background: #528B86;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+header a.mobile-menu:hover {
+  background: #447F7A;
+}
+
 /* ======================== DEVICES ======================== */
 /* 	================================================================================
 	LARGE DEVICES 
@@ -177,3 +191,38 @@ header nav.header-menu ul.sub-sub-menu {
 	Phones Less than 425px
 	(<425px)
 	================================================================================ */
+@media screen and (max-width: 425px) {
+  header div.header-logo, header nav.header-menu {
+    float: none !important;
+  }
+  header nav.header-menu ul.menu {
+    display: none;
+  }
+  header nav.header-menu ul.menu > li {
+    display: block;
+    width: 100%;
+  }
+  header nav.header-menu ul.menu > li a {
+    background: #ffffff !important;
+    color: #797979 !important;
+    border-top: 1px solid #e0e0e0 !important;
+  }
+  header nav.header-menu ul.menu > li:hover a, header nav.header-menu ul.menu > li.activate a {
+    background: #f0f0f0 !important;
+    box-shadow: inset 0px 0px 0px 0px #47817E !important;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #47817E !important;
+    -moz-box-shadow: inset 0px 0px 0px 0px #47817E !important;
+    -o-box-shadow: inset 0px 0px 0px 0px #47817E !important;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+  }
+  header nav.header-menu ul.menu > li ul {
+    display: none;
+  }
+  a.mobile-menu {
+    display: block !important;
+    margin-top: 20px;
+  }
+}

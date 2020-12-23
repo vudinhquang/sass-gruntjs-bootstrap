@@ -77,3 +77,16 @@ nav.header-menu {
 		left: 155px;
     }
 }
+
+a.mobile-menu{
+	display: none;
+	width: 100%;
+	padding: 12px;
+	background: #528B86;
+	@include setFont(16px, $color-white); 
+	text-transform: uppercase;
+	
+	&:hover{
+		background:#447F7A;
+	}
+}
