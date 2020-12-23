@@ -6,6 +6,7 @@
 /* ======================== COLORS ======================== */
 /* ======================== HEADER ======================== */
 /* ======================== BREADCRUMB ======================== */
+/* ======================== WIDGETS ======================== */
 /* ======================== MIXIN ======================== */
 /* ==================== BORDER RADIUS ==================== */
 /* Ref: 
@@ -396,6 +397,45 @@ div.article a.view-more {
   line-height: 20px;
   text-transform: uppercase;
   border-bottom: 3px solid #47817E;
+}
+
+/* ======================== WIDGETS ======================== */
+div.widget {
+  margin-bottom: 40px;
+}
+
+div.widget h4 {
+  color: #7f8c8c;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+div.widget-tags ul.widget-tags-list li a:hover, div.widget-tags ul.widget-tags-list li.active a {
+  background: #70C570;
+  color: #ffffff;
+}
+
+div.widget-tags ul.widget-tags-list {
+  list-style: none;
+}
+
+div.widget-tags ul.widget-tags-list li {
+  margin: 10px 5px 0 0;
+  display: inline-block;
+}
+
+div.widget-tags ul.widget-tags-list li a {
+  display: block;
+  text-transform: capitalize;
+  background: #808B8D;
+  padding: 8px 14px;
+  color: #ffffff;
+  font-size: 13px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 #main-content {
