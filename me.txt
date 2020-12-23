@@ -199,6 +199,8 @@ Xây dựng giao diện Article
     Article 1
     Article 2
     Article 3
-    Xây dựng giao diện Widget Tag
-    Xây dựng giao diện Widget Ads
+Xây dựng giao diện Widget Tag
+Xây dựng giao diện Widget Ads
+Xây dựng giao diện Footer Top
+    Footer Top 1
     
