@@ -18,3 +18,11 @@
 
 /* ======================== ELEMENTS ======================== */
 @import "elements/main";
+
+#main-content {
+    padding: 4% 0;
+}
+
+.no-padding-left {
+	padding-left: 0px;
+}

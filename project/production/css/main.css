@@ -296,6 +296,10 @@ section.section-breadcrumb ol.breadcrumb li.active {
   color: #888888;
 }
 
+div.article {
+  margin-bottom: 50px;
+}
+
 div.article:last-child {
   margin-bottom: 0px;
 }
@@ -329,4 +333,57 @@ div.article h3 a:hover {
 div.article h3 a {
   font-size: 20px;
   line-height: 1.2em;
+}
+
+div.article p.info {
+  color: #808B8D;
+  font-size: 14px;
+}
+
+div.article p.info a {
+  color: #E55846;
+}
+
+div.article p.info a:hover {
+  color: #81BFBE;
+}
+
+div.article p.info a {
+  font-size: 14px;
+  margin-right: 20px;
+  display: inline;
+}
+
+div.article p.info a:first-child {
+  margin-right: 0px;
+}
+
+div.article p.info a i {
+  color: #81BFBE;
+  margin-right: 5px;
+}
+
+div.article p.summary {
+  color: #7F8C8C;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+div.article a.view-more {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 12px 30px;
+  background: #62A29E;
+  line-height: 20px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #47817E;
+}
+
+#main-content {
+  padding: 4% 0;
+}
+
+.no-padding-left {
+  padding-left: 0px;
 }
