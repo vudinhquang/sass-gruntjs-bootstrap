@@ -1,4 +1,21 @@
 nav.header-menu {
+
+	%menu-active-or-hover {
+		background: #62A29E;
+		@include setBorderRadius(5px);
+		@include setBoxShadowBottom(-4px, #47817E);
+	}
+
+	%sub-menu-active-or-hover {
+		background: #f0f0f0;
+		border-left: 3px solid #62A29E;
+		color: #797979;
+    }
+    
+	ul li {
+        list-style: none;
+        position: relative;
+	}
 	// Menu Level 1
 	ul.menu {
 		> li {
@@ -9,30 +26,56 @@ nav.header-menu {
                 padding: 10px 24px;
 			}
 
-			&.activate, &:hover {
+			&.activate {
 				> a {
-                    @include setBorderRadius(5px);
-                    @include setBoxShadowBottom(-4px, #47817E);
-                    background: #62A29E;
+                    @extend %menu-active-or-hover;
 				}
             }
 
-            ul.sub-menu {
-                display: none;
-                li {
-                    a {
-
-                    }
-
-                    ul.sub-sub-menu {
-                        li {
-                            a {
-                                
-                            }
-                        }
-                    }
+			&:hover {
+                > a {
+                    @extend %menu-active-or-hover;
                 }
-            }
+				ul.sub-menu {
+					display: block;
+				}
+			}
 		}
-	}
+    }
+    
+    // Menu Level 2
+    ul.sub-menu {
+        display: none;
+        position: absolute;
+		top: 32px;
+		left: 0px;
+        li {
+            display: inline-block;
+            width: 155px;
+            a {
+                @include setFont(13px, $color-white); 
+                text-transform: uppercase;
+				border-left: 3px solid #C03C35;
+				background: #E2534B;
+                padding: 10px 20px;
+                display: block;
+            }
+
+			&:hover {
+				> a {
+					@extend %sub-menu-active-or-hover;
+				}
+			}
+        }
+    }
+
+    // Menu Level 3
+    ul.sub-sub-menu {
+        display: none;
+        li {
+            a {
+                
+            }
+        }
+    }
 }

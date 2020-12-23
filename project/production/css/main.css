@@ -48,6 +48,29 @@ header div.header-logo a {
   display: block;
 }
 
+header nav.header-menu ul.menu > li.activate > a, header nav.header-menu ul.menu > li:hover > a {
+  background: #62A29E;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: inset 0px -4px 0px 0px #47817E;
+  -webkit-box-shadow: inset 0px -4px 0px 0px #47817E;
+  -moz-box-shadow: inset 0px -4px 0px 0px #47817E;
+  -o-box-shadow: inset 0px -4px 0px 0px #47817E;
+}
+
+header nav.header-menu ul.sub-menu li:hover > a {
+  background: #f0f0f0;
+  border-left: 3px solid #62A29E;
+  color: #797979;
+}
+
+header nav.header-menu ul li {
+  list-style: none;
+  position: relative;
+}
+
 header nav.header-menu ul.menu > li {
   display: inline-block;
 }
@@ -60,18 +83,32 @@ header nav.header-menu ul.menu > li > a {
   padding: 10px 24px;
 }
 
-header nav.header-menu ul.menu > li.activate > a, header nav.header-menu ul.menu > li:hover > a {
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  box-shadow: inset 0px -4px 0px 0px #47817E;
-  -webkit-box-shadow: inset 0px -4px 0px 0px #47817E;
-  -moz-box-shadow: inset 0px -4px 0px 0px #47817E;
-  -o-box-shadow: inset 0px -4px 0px 0px #47817E;
-  background: #62A29E;
+header nav.header-menu ul.menu > li:hover ul.sub-menu {
+  display: block;
 }
 
-header nav.header-menu ul.menu > li ul.sub-menu {
+header nav.header-menu ul.sub-menu {
+  display: none;
+  position: absolute;
+  top: 32px;
+  left: 0px;
+}
+
+header nav.header-menu ul.sub-menu li {
+  display: inline-block;
+  width: 155px;
+}
+
+header nav.header-menu ul.sub-menu li a {
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-left: 3px solid #C03C35;
+  background: #E2534B;
+  padding: 10px 20px;
+  display: block;
+}
+
+header nav.header-menu ul.sub-sub-menu {
   display: none;
 }
