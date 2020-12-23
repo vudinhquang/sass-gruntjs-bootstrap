@@ -1,0 +1,6 @@
+// Navigation Padding
+@mixin setHeaderMenuPadding($padding){
+	header nav.header-menu ul.menu > li > a {
+	    padding: $padding;
+	}
+}

@@ -187,4 +187,5 @@ Xây dựng cấu trúc project
         Medium devices Desktops (≥992px)
         Small devices Tablets (≥768px)
         Extra small devices Phones (<768px)
+    Responsive 2
     
