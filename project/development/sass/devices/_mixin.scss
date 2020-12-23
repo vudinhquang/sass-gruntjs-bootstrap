@@ -71,3 +71,32 @@
 		}
 	}
 }
+
+// Article
+@mixin setArticle($distanceLine: 12px, $marginBottom: 30px, $marginRightTagA: 12px){
+	.no-padding-left {
+    	padding-left: 15px !important;
+	}
+
+	div.article {
+		margin-bottom: $marginBottom !important;
+
+		&:last-child {
+			margin-bottom: 0px !important;
+		}
+		
+		> * {
+			margin-bottom: $distanceLine !important;
+		}
+		
+		p.info {
+			a {
+				margin-right: $marginRightTagA !important;
+			}
+		}
+
+		a.view-more {
+		    padding: 12px 20px !important;
+		}
+	}
+}
