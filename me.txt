@@ -211,4 +211,19 @@ Publish & Minify
         minify html
         npm install grunt-contrib-htmlmin --save-dev
     Fix
+Validator
+    Deploy
+        https://leanhtien.net/tieu-chuan-w3c-la-gi-tai-sao-can-thiet-ke-web-theo-chuan
+        https://gist.github.com/wh1tney/2ad13aa5fbdd83f6a489
+        heroku login
+        git add .
+        Add a file called composer.json to the root directory by running touch composer.json
+        Add a file called index.php to the root directory by running touch index.php
+        Rename the homepage (e.g. index.html) to home.html
+        In index.php, add the following line: <?php include_once("home.html"); ?>
+        In composer.json, add the following line: {}
+        Run git push heroku master
+	    Sau khi push thành công quay lại trang ứng dụng của ta: https://html-w3c.herokuapp.com/
+    w3c Validator: https://validator.w3.org/
+    Check web responsive: https://responsivetesttool.com/
     
