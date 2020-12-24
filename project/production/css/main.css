@@ -294,6 +294,9 @@ header a.mobile-menu:hover {
   div.widget:first-child {
     margin-top: 20px !important;
   }
+  .footer-column {
+    margin-bottom: 12px;
+  }
 }
 
 /* ======================== ELEMENTS ======================== */

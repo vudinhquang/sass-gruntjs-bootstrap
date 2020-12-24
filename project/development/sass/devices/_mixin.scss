@@ -110,3 +110,10 @@
 		margin-bottom: $size !important;
 	}
 }
+
+// Footer Top
+@mixin setFooterTop($marginBottom: 12px) {
+	.footer-column {
+		margin-bottom: $marginBottom;
+	}
+}
