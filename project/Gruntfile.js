@@ -66,7 +66,7 @@ module.exports = function(grunt) {
 					'<%= dirs.inputHTMLELements %>/*.html',		// development/html-elements/*.html
 					// '<%= dirs.inputHTMLELements %>/*/*.html',	// development/html-elements/*/*.html
 				],
-				tasks: ['sass', 'includes'],
+				tasks: ['sass', 'includes', 'uglify'],
 				options: {
 					spawn: false,
 					livereload: true
@@ -80,7 +80,7 @@ module.exports = function(grunt) {
 					options: {
 						hostname: 'localhost',
 						port: 3069,
-						base: 'production/',
+						base: '<%= dirs.output %>/',
 						livereload: true
 					}
 			}
@@ -90,9 +90,9 @@ module.exports = function(grunt) {
 		includes: {
 			files: {
 				src: [
-					'development/index.html'
+					'<%= dirs.input %>/index.html'
 				], // Source files 
-				dest: 'production/', 
+				dest: '<%= dirs.output %>/', 
 				flatten: true, 
 				cwd: '.',
 				options: {

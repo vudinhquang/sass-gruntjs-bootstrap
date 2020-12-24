@@ -210,4 +210,5 @@ Publish & Minify
     Minify HTML
         minify html
         npm install grunt-contrib-htmlmin --save-dev
+    Fix
     
