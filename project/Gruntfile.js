@@ -101,6 +101,19 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+
+		// HTML MIN
+		htmlmin: {                                     // Task
+			dist: {                                      // Target
+				options: {                                 // Target options
+					removeComments: false,
+					collapseWhitespace: true
+				},
+				files: {                                   // Dictionary of files
+					'<%= dirs.output %>/index2.html': '<%= dirs.output %>/index.html',
+				}
+			}
+		}
     });
 
     // 02 Load the plugin that provides the "contrib-cssmin" task.
@@ -110,6 +123,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-includes');
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
     // 03 Register task(s).
 	grunt.registerTask('default', 'Log some stuff.', function() {
@@ -128,6 +142,7 @@ module.exports = function(grunt) {
 	// Task Publish Project
 	grunt.registerTask('publish', [
 		'cssmin',
-		'uglify'
+		'uglify',
+		'htmlmin'
 	]);
 };

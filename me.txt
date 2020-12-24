@@ -207,4 +207,7 @@ Xây dựng giao diện Footer Top
 Xây dựng giao diện Footer Bottom
 Publish & Minify
     Minify CSS, Minify JS
+    Minify HTML
+        minify html
+        npm install grunt-contrib-htmlmin --save-dev
     
