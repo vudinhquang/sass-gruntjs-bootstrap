@@ -117,3 +117,13 @@
 		margin-bottom: $marginBottom;
 	}
 }
+
+// Footer Bottom
+@mixin setFooterBottom() {
+	div.footer-bottom {
+		text-align: center;
+		div.copyright, div.social-icons {
+			float: none !important;
+		}
+	}
+}

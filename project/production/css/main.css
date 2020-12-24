@@ -297,6 +297,12 @@ header a.mobile-menu:hover {
   .footer-column {
     margin-bottom: 12px;
   }
+  div.footer-bottom {
+    text-align: center;
+  }
+  div.footer-bottom div.copyright, div.footer-bottom div.social-icons {
+    float: none !important;
+  }
 }
 
 /* ======================== ELEMENTS ======================== */
@@ -611,6 +617,43 @@ footer div.footer-top {
 
 footer div.footer-top .footer-column {
   padding-left: 0%;
+}
+
+footer div.footer-bottom {
+  background-color: #6AB3AC;
+  padding: 2% 0;
+}
+
+footer div.footer-bottom div.social-icons ul li {
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+footer div.footer-bottom div.social-icons ul li a {
+  display: inline-block;
+}
+
+footer div.footer-bottom div.social-icons ul li a i {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+footer div.footer-bottom div.social-icons ul li a:hover i {
+  color: #E8645A;
+}
+
+footer div.footer-bottom div.copyright p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+footer div.footer-bottom div.copyright p a {
+  color: #E2534B;
+}
+
+footer div.footer-bottom div.copyright p a:hover {
+  color: #ffffff;
 }
 
 #main-content {
