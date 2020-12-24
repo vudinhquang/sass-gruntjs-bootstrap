@@ -226,4 +226,7 @@ Validator
 	    Sau khi push thành công quay lại trang ứng dụng của ta: https://html-w3c.herokuapp.com/
     w3c Validator: https://validator.w3.org/
     Check web responsive: https://responsivetesttool.com/
+PageSpeed Tools
+    PageSpeed google: https://developers.google.com/speed/pagespeed/insights/
+    google font generator fontface: https://google-webfonts-helper.herokuapp.com/fonts
     
