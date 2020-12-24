@@ -22,8 +22,9 @@ module.exports = function(grunt) {
             options: {
             },
             target: {
-                files: [{
-                }]
+				files: {
+					'<%= dirs.outputCSS %>/main.css' : '<%= dirs.outputCSS %>/main.css'
+				}
             }
         },
 

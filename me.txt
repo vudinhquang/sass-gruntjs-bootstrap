@@ -205,3 +205,6 @@ Xây dựng giao diện Footer Top
     Footer Top 1
     Footer Top 2
 Xây dựng giao diện Footer Bottom
+Publish & Minify
+    Minify CSS, Minify JS
+    
