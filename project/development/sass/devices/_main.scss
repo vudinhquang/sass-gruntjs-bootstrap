@@ -1,7 +1,23 @@
+@import "include-media";
+
 $device_size_mobile		: 425px;
 $device_size_small		: 768px;
 $device_size_medium		: 992px;
 $device_size_large		: 1200px;
+
+@include media('>phone', '<=tablet', 'landscape') { 
+	body {
+		background-color: yellow;
+	}
+}
+
+@include media-context(('custom': 400px)) {
+	body {
+		@include media('>phone', '<=custom') {
+			background-color: red;
+		}
+	}
+}
 
 @import "mixin";
 
