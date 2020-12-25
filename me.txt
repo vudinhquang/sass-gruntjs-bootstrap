@@ -231,4 +231,14 @@ PageSpeed Tools
     google font generator fontface: https://google-webfonts-helper.herokuapp.com/fonts
 Include media
     https://eduardoboucas.github.io/include-media/
+Sass Compass
+    Compass 1
+        http://compass-style.org/
+        rubyinstaller-devkit-2.7.2-1-x64.exe
+        Start Command Prompt with Ruby
+            gem update --system
+            gem install compass
+        Tell us about your project and we'll help you get it set up:
+            compass create training-compass --css-dir "css" --javascripts-dir "js"
+        training-compass: compass watch
     
